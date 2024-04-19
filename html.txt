@@ -1,0 +1,28 @@
+The table element is defined in HTML using <table>...</table> tag\
+The <tr> element creates a new row.
+The <td> element creates a new table column.
+Volume: <input type="range"/>
+
+Displays the output of user input.
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+     <input type="number" id="b" name="b" value="10" /> +
+     <input type="number" id="a" name="a" value="10" /> =
+     <output name="result" for="a b">20</output>
+      </form>
+
+
+Placeholder:text that display in the box what to enter in the box
+   First name: <input type="text" placeholder="Enter your first name"/>  
+
+Min, Max, and Step:the user uses the range/number input element.
+  Job experience: <input type="number" min="2" max="10" step="1"/> 
+
+The following are elements used for editing.
+
+  del: It defines deleted text by striking on it
+  ins: It defines inserted text by underlining it
+
+
+
+Audio Element:
+<audio src="audio.mp3"  controls="controls"></audio>
